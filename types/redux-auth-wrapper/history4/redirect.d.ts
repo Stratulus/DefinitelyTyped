@@ -19,4 +19,4 @@ export interface ConnectedReduxRedirectConfig<OwnProps = {}, State = {}> extends
 
 export function connectedReduxRedirect<OwnProps = {}, State = {}>(
     config: ConnectedReduxRedirectConfig<OwnProps, State>
-): AuthWrapperDecorator<OwnProps & InjectedAuthReduxProps>;
+): AuthWrapperDecorator<OwnProps>;
